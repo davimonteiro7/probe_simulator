@@ -117,3 +117,22 @@
 * **Sample Call:**
 
   local: `curl -X POST -H 'Content-Type: application/json' -d '{"movimentos": ["GE", "M", "M", "M", "GD", "M", "M","M"]}' http://localhost:4000/api/probe_simulator/move_probe -v` 
+
+## Deploy
+
+  Para fazer o deploy desta aplicação foi utilizado Elixir realeses e Gigalixir.
+  
+  Primeiro foi preciso prepara um release para o gigalixir.
+
+  link: https://gigalixir.readthedocs.io/en/latest/modify-app/releases.html#modifying-existing-app-with-elixir-releases
+
+  Foi seguida as orientações deste documente para isto, adaptando para esta API "não precisando configurar credencias para um banco de dados".
+
+  Após criar a realease, segui este documento (https://gigalixir.readthedocs.io/en/latest/getting-started-guide.html#set-up-deploys) para fazer o deploy.
+
+  Foi necessario mudar o repositório do projeto para utilizar o Gigalixir.
+  Para acompanhar os passos anteriores do projeto, acceso o antigo repositorio:
+
+  https://github.com/davimonteiro7/backend-test-credere   
+  
+----
