@@ -31,5 +31,4 @@
           {runtime_tools,"1.15.1",permanent},
           {ssl,"10.2",permanent},
           {telemetry,"0.4.3",permanent},
-          {telemetry_metrics,"0.6.1",permanent},
-          {telemetry_poller,"0.5.1",permanent}]}.
+          {telemetry_metrics,"0.6.1",permanent}]}.

@@ -6,9 +6,7 @@ defmodule ProbeSimulator.Application do
   use Application
 
   def start(_type, _args) do
-    children = [
-      # Start the Telemetry supervisor
-      ProbeSimulatorWeb.Telemetry,
+    children = [ 
       # Start the PubSub system
       {Phoenix.PubSub, name: ProbeSimulator.PubSub},
       # Start the Endpoint (http/https)
